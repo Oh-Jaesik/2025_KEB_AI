@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+
 
 # a = np.array([1,3,-9,2])
 # print(a, a.ndim)
@@ -10,4 +12,8 @@ ones = np.ones((3,4))
 print(ones)
 
 zeros = np.zeros((3,4), dtype = np.int16)
-print(zeros)
+print(zeros, zeros.dtype)
+
+a= np.arange(5, 11, 2)
+print(a, a.ndim,a.shape, a.size)
+
